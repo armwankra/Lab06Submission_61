@@ -29,7 +29,7 @@ firstname = FONT.render('Firstname', True, (0,0,0))
 firstnameRect = firstname.get_rect() # text size
 firstnameRect.center = (100,60)
 
-# __________________
+
 
 class InputBox:
 
@@ -210,4 +210,4 @@ while(1):
     
     pg.time.delay(1)
     pg.display.update()
-# 
+
